@@ -9,7 +9,7 @@ import android.os.Build
 import android.os.Bundle
 import android.provider.Settings
 import android.widget.*
-import androidx.appcompat.app.AppCompatActivity
+
 class MainActivity : Activity() {
     private val prefs by lazy { getSharedPreferences("alerta", MODE_PRIVATE) }
     private val defaultMessage = "ATENÇÃO, EQUIPE! 📸\\nNão esqueçam de realizar o registro fotográfico de todos os carregamentos e encaminhar as fotos no grupo correspondente.\\n\\nO registro é obrigatório para comprovar as condições da carga e a qualidade da operação."
