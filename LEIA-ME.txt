@@ -1,0 +1,24 @@
+PROJETO ANDROID: ALERTA DE CARREGAMENTO
+
+Este ZIP contém o projeto-fonte para abrir no Android Studio. Não é um APK pronto.
+
+COMO ABRIR
+1. Extraia o ZIP.
+2. Abra o Android Studio.
+3. Selecione Open e escolha a pasta AlertaDeCarregamento_Samsung_HoraCheia.
+4. Aguarde a sincronização do Gradle.
+5. Conecte o celular Android com depuração USB ativada ou use um emulador.
+6. Para gerar o instalador: Build > Build Bundle(s) / APK(s) > Build APK(s).
+7. O APK normalmente ficará em app/build/outputs/apk/debug/app-debug.apk.
+
+O QUE FAZ
+- Permite editar o texto do alerta.
+- Agenda alertas para o início da próxima hora cheia e repete a cada hora.
+- Reagenda após reiniciar o celular.
+- Botão para abrir o WhatsApp.
+
+IMPORTANTE
+- O app gera notificações. Não envia mensagens automaticamente a grupos do WhatsApp.
+- Autorize notificações quando solicitado.
+- Em celulares Samsung, permita atividade em segundo plano e coloque o app como "Nunca suspenso" se o sistema interromper os alarmes.
+- O Android pode exigir autorização especial para alarmes exatos dependendo da versão e das configurações do aparelho.
